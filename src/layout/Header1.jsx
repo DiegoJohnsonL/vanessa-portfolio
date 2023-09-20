@@ -19,8 +19,7 @@ export default function Header1({switcherBtn}) {
                     {/* Brand */}
                     <div className="logo">
                         <a className="navbar-brand" href="#">
-                            <img className="logo-dark" alt="logo" src="assets/img/logo.svg" />
-                            <img className="logo-light" alt="light logo" src="assets/img/logo-light.svg" />
+                        <a className="navbar-brand" href="#"> Mysticc V </a>
                         </a>
                     </div>
                     <div className="ms-auto">
