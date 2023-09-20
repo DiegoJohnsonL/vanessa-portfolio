@@ -26,87 +26,87 @@ export default function PortfolioOne() {
 
     const projects = [
         {
-            title: "Mobile app design",
-            subTitle: "Mobile App, App Design",
+            title: "I gift for a good boy",
+            subTitle: "Art Design",
             img: "assets/img/project-1.jpg",
             desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            type: "Website",
-            languages: "PHP, HTML, CSS, JS",
-            platform: "Wordpress",
-            country: "USA",
+            type: "Drawing",
+            languages: "I dunno",
+            platform: "I dunno",
+            country: "Brazil",
             liveURL: "www.demo.com"
 
 
         },
         {
-            title: "Mobile app design",
-            subTitle: "Mobile App, App Design",
+            title: "Playing with my dog",
+            subTitle: "LMFAOOOOO",
             img: "assets/img/project-2.jpg",
             desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            type: "Website",
-            languages: "PHP, HTML, CSS, JS",
-            platform: "Wordpress",
-            country: "USA",
+            type: "Screenshot",
+            languages: "English?",
+            platform: "My PC",
+            country: "Brazil",
             liveURL: "www.example.com"
 
 
         },
         {
-            title: "Website Design for Marketing Agency Startup",
-            subTitle: "Mobile App, App Design",
+            title: "Dancing to kPop in VR",
+            subTitle: "We were drunk and i forced him to do it",
             img: "assets/img/project-3.jpg",
             desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            type: "Website",
-            languages: "PHP, HTML, CSS, JS",
-            platform: "Wordpress",
-            country: "USA",
+            type: "I dunno",
+            languages: "I dunno",
+            platform: "VR CHAT BABYYY",
+            country: "Brazil",
             liveURL: "www.xyz.com"
 
 
         },
         {
-            title: "Mobile app design",
-            subTitle: "Mobile App, App Design",
+            title: "Speed running",
+            subTitle: "EZ Clap didn't get scared at all *worried laughter*",
             img: "assets/img/project-4.jpg",
             desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            type: "Website",
-            languages: "PHP, HTML, CSS, JS",
-            platform: "Wordpress",
-            country: "USA",
+            type: "Videogame",
+            languages: "I dunno",
+            platform: "VR CHAT AGAIN",
+            country: "Brazil",
             liveURL: "www.mysite.com"
 
 
 
         },
         {
-            title: "Website Design for Marketing Agency Startup",
-            subTitle: "Mobile App, App Design",
+            title: "I am not an alcoholic okay?",
+            subTitle: "I swear",
             img: "assets/img/project-5.jpg",
             desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            type: "Website",
-            languages: "PHP, HTML, CSS, JS",
-            platform: "Wordpress",
-            country: "USA",
+            type: "i dunno",
+            languages: "alcohol",
+            platform: "My table",
+            country: "Brazil",
             liveURL: "www.yoursite.com"
 
 
 
         },
         {
-            title: "Mobile app design",
-            subTitle: "Mobile App, App Design",
+            title: "Me",
+            subTitle: "I draw myself",
             img: "assets/img/project-6.jpg",
             desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            type: "Website",
-            languages: "PHP, HTML, CSS, JS",
-            platform: "Wordpress",
-            country: "USA",
+            type: "Aigital art",
+            languages: "imagination",
+            platform: "my tablet",
+            country: "Brazil",
             liveURL: "www.realsite.com"
 
 
@@ -133,7 +133,6 @@ export default function PortfolioOne() {
                                     </div>
                                     <div className="portfolio-img">
                                         <img src={data.img} />
-
                                         <a onClick={() => toggleModalOne(data)} className="px_modal portfolio-modal-link" href="#project_1">
                                             <i className="fa fa-plus"></i>
                                         </a>

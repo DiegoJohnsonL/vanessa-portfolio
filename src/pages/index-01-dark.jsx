@@ -47,8 +47,6 @@ export default function Home() {
         {/* End contactus */}
       </main>
       {/* Main */}
-
-
     </Layout1>
   )
 }

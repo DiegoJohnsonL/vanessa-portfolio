@@ -12,21 +12,21 @@ export default function Footer() {
                         </div>
                         <h6>Vanessa Nascimento</h6>
                     </div>
-                    <ul className="nav social-link">
+                    <ul className="nav social-link mb-3">
                         <li>
-                            <a href="#"><i className="fab fa-twitter" /></a>
+                            <a href="https://twitter.com/sanemy_" target='_blank'><i className="fab fa-twitter" /></a>
                         </li>
                         <li>
-                            <a href="#"><i className="fab fa-instagram" /></a>
+                            <a href="https://www.instagram.com/zsanemy/" target='_blank'><i className="fab fa-instagram" /></a>
                         </li>
                         <li>
-                            <a href="#"><i className="fab fa-facebook" /></a>
+                            <a href="https://www.facebook.com/" target='_blank'><i className="fab fa-facebook" /></a>
                         </li>
                         <li>
-                            <a href="#"><i className="fab fa-pinterest" /></a>
+                            <a href="https://www.pinterest.com/zSanemy/" target='_blank'><i className="fab fa-pinterest" /></a>
                         </li>
                     </ul>
-                    <p className="copyright"> </p>
+                   
                 </div>
             </div>
             {/* End Footer */}

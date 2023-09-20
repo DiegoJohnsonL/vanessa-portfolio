@@ -34,10 +34,7 @@ export default function Header1({switcherBtn}) {
             <div className={`header-left-fixed one-page-nav ${openMenu ? "menu-open" : ""}`} >
                 {/* Brand */}
                 <div className="logo">
-                    <a className="navbar-brand" href="#">
-                        <img className="logo-dark" alt="title" src="assets/img/logo.svg" />
-                        <img className="logo-light" alt="title" src="assets/img/logo-light.svg" />
-                    </a>
+                    <a className="navbar-brand" href="#"> Mysticc V </a>
                 </div>
                 {/* / */}
                 <ul className="main-menu">
@@ -73,14 +70,14 @@ export default function Header1({switcherBtn}) {
                             <span className="m-text">Portfolio</span>
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a data-scroll-nav={4} href="#contactus">
                             <span className="m-icon">
                                 <i className="bi-telephone" />
                             </span>
                             <span className="m-text">Contact</span>
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
                 {/* Top Menu */}
                 <div className={`theme-btn dropdown ${!switcherBtn ? "d-none": ""}`} >

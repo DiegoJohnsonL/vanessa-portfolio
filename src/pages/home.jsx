@@ -33,14 +33,14 @@ export default function Home() {
       </section>
       {/* End portfolio */}
       {/* Testimonials */}
-      <section className="section testimonials-section">
+      {/* <section className="section testimonials-section">
         <TestimonialOne />
-      </section>
+      </section> */}
       {/* End Testimonials */}
       {/* contactus */}
-      <section id="contactus" data-scroll-index={4} className="section contactus-section gray-bg-1">
+      {/* <section id="contactus" data-scroll-index={4} className="section contactus-section gray-bg-1">
         <ContactOne />
-      </section>
+      </section>  */}
       {/* End contactus */}
     </Layout1>
   )

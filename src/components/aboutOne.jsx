@@ -15,20 +15,20 @@ export default function AboutOne() {
                     <span>About Me</span>
                   </div>
                   <div className="about-me-text pb-5">
-                    <h3>My Name Is Tapsi d{"'"}Souza</h3>
-                    <h5><span>I Am Available</span> For UI UX Design Projects</h5>
-                    <p>Born in 2000, AB type living in USA. We provide on-screen design for websites and apps, as well as front-end implementation. We will continue to pursue a wide range of expressions and better code by pursuing our “likes”.</p>
+                    <h3>My Name Is Vanessa Nascimento</h3>
+                    <h5><span>I Am Available</span> For Pretty Much Anything</h5>
+                    <p>Born in 2002, in Brazil. I do anything i want cuz im a baddy 😈.</p>
                     <div className="row pt-2">
                       <div className="col-auto">
                         <div className="a-count">
-                          <span className="count">5k</span>
+                          <span className="count">?</span>
                           <div className="a-count-text">Projects <br />Completed.</div>
                         </div>
                       </div>
                       <div className="col-auto">
                         <div className="a-count">
-                          <span className="count">3k</span>
-                          <div className="a-count-text">Satisfied <br />Clients.</div>
+                          <span className="count">1</span>
+                          <div className="a-count-text">Satisfied <br />Client (diego).</div>
                         </div>
                       </div>
                     </div>
@@ -43,25 +43,25 @@ export default function AboutOne() {
                         <div className="icon">
                           <i className="fas fa-briefcase" />
                         </div>
-                        <span className="time">2019 - Present</span>
-                        <h5>Art Director - Facebook Inc</h5>
+                        <span className="time">2023 - Present</span>
+                        <h5>Bottom fragger - Valorant</h5>
+                        <p>I try to get kills sometimes.</p>
+                      </li>
+                      <li>
+                        <div className="icon">
+                          <i className="fas fa-briefcase" />
+                        </div>
+                        <span className="time">2023 - Present</span>
+                        <h5>Wanna be support - League of legends</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                       </li>
                       <li>
                         <div className="icon">
                           <i className="fas fa-briefcase" />
                         </div>
-                        <span className="time">2019 - Present</span>
-                        <h5>Art Director - Facebook Inc</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <i className="fas fa-briefcase" />
-                        </div>
-                        <span className="time">2019 - Present</span>
-                        <h5>Art Director - Facebook Inc</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <span className="time">2023 - Present</span>
+                        <h5>Anime enthusiast - My room + netflix + popcorn</h5>
+                        <p>I love BL and korean Dramas {">w<"}</p>
                       </li>
                     </ul>
                   </div>
@@ -70,20 +70,13 @@ export default function AboutOne() {
                   <div className="row align-items-start">
                     <div className="col-md-7 py-4">
                       <div className="about-me-img">
-                        <img src="assets/img/about-banner.jpg" alt="title" />
+                        <img src="assets/img/about-banner.png" alt="title" />
                       </div>
                     </div>
                     <div className="col-md-5 py-4">
                       <div className="about-content">
                         <ul>
-                          <li>
-                            <div className="a-icon">
-                              <i className="fab fa-skype" />
-                            </div>
-                            <div className="a-text">
-                              <a className="text-reset stretched-link" href="#">Skype me</a>
-                            </div>
-                          </li>
+                        
                           <li>
                             <div className="a-icon">
                               <i className="fa fa-envelope" />
@@ -100,14 +93,7 @@ export default function AboutOne() {
                               <a className="text-reset stretched-link" href="#">WhatsApp Me</a>
                             </div>
                           </li>
-                          <li>
-                            <div className="a-icon">
-                              <i className="fa fa-map" />
-                            </div>
-                            <div className="a-text">
-                              <a className="text-reset stretched-link" href="#">Meet Me</a>
-                            </div>
-                          </li>
+                     
                           <li>
                             <div className="a-icon">
                               <i className="fa-solid fa-file-pdf" />
@@ -125,7 +111,7 @@ export default function AboutOne() {
                       </div>
                       <div className="skills">
                         <div className="skill-lt" data-value={92}>
-                          <h6 className="dark-color">HTML5</h6>
+                          <h6 className="dark-color">Valorant top fragger (sometimes)</h6>
                           <div className="skill-bar">
                             <div className="skill-bar-in">
                               <span>92%</span>
@@ -133,7 +119,7 @@ export default function AboutOne() {
                           </div>
                         </div>
                         <div className="skill-lt" data-value={72}>
-                          <h6 className="dark-color">WordPress</h6>
+                          <h6 className="dark-color">Playing support characters and building dmg items</h6>
                           <div className="skill-bar">
                             <div className="skill-bar-in">
                               <span>75%</span>
@@ -141,7 +127,7 @@ export default function AboutOne() {
                           </div>
                         </div>
                         <div className="skill-lt" data-value={86}>
-                          <h6 className="dark-color">Magento</h6>
+                          <h6 className="dark-color">Singing</h6>
                           <div className="skill-bar">
                             <div className="skill-bar-in">
                               <span>86%</span>
@@ -149,7 +135,7 @@ export default function AboutOne() {
                           </div>
                         </div>
                         <div className="skill-lt" data-value={88}>
-                          <h6 className="dark-color">UI/UX</h6>
+                          <h6 className="dark-color">Drawing</h6>
                           <div className="skill-bar">
                             <div className="skill-bar-in">
                               <span>88%</span>

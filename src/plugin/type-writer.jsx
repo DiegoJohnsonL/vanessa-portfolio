@@ -8,8 +8,7 @@ export const TypeWriter = () => {
             <TypeIt
                 options={{ loop: true }}
                 getBeforeInit={(instance) => {
-                    instance.type("Developer! ").pause(750).delete(11).pause(750).type("Designer! ")
-
+                    instance.type("Graphic Designer! ").pause(750).delete(18).pause(750).type("Video Editor! ").pause(750).delete(14).pause(750).type("Fake Natty! 😝")
                     // Remember to return it!
                     return instance;
                 }}
