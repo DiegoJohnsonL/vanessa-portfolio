@@ -18,7 +18,7 @@ export default function Index() {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-12 text-center d-flex align-items-center justify-content-center" style={{ minHeight: 300 }}>
-                <h1 className="display-5 fw-bold">Happy Birthday Vanessa</h1>
+                <h1 className="display-5 fw-bold">Happy Birthday Vanessa 🥳🎊🎉🪅</h1>
               </div>
             </div>
           </div>
