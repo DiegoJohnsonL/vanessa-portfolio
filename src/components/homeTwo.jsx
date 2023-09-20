@@ -1,5 +1,5 @@
 import React from 'react'
-import { TypeWriter } from './../plugin/type-writer';
+import { TypeWriter } from '../plugin/type-writer';
 
 export default function HomeTwo() {
   return (

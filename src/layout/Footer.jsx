@@ -10,7 +10,7 @@ export default function Footer() {
                         <div className="footer-avatar">
                             <img src="assets/img/mask.jpg" alt="title" />
                         </div>
-                        <h6>Tapsi d{"'"}Souza</h6>
+                        <h6>Vanessa Nascimento</h6>
                     </div>
                     <ul className="nav social-link">
                         <li>
@@ -26,7 +26,7 @@ export default function Footer() {
                             <a href="#"><i className="fab fa-pinterest" /></a>
                         </li>
                     </ul>
-                    <p className="copyright">© 2023 copyright all right reserved</p>
+                    <p className="copyright"> </p>
                 </div>
             </div>
             {/* End Footer */}

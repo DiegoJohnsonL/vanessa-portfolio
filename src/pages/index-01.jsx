@@ -1,22 +1,20 @@
 import React, { useEffect, useState } from "react";
 import Image from 'next/image'
-import Layout2 from '../src/layout/Layout2'
-import HomeTwo from '../src/components/elements/homeTwo';
-import AboutOne from '../src/components/elements/aboutOne';
-import ServiceOne from '../src/components/elements/serviceOne';
-import PortfolioOne from '../src/components/elements/portfolioOne';
-import TestimonialOne from '../src/components/elements/testimonialOne';
-import ContactOne from "../src/components/elements/contactOne";
+import Layout1 from "../layout/Layout1";
+import HomeOne from "../components/homeOne";
+import AboutOne from "../components/aboutOne";
+import ServiceOne from "../components/serviceOne";
+import PortfolioOne from "../components/portfolioOne";
+import TestimonialOne from "../components/testimonialOne";
+import ContactOne from "../components/contactOne";
 
 export default function Home() {
-  // useEffect(() => {
-  //   document.querySelector("html").setAttribute("data-bs-theme", "light");
-  // }, []);
+  
   return (
-    <Layout2  style={"light"}>
+    <Layout1 switcherBtn>
       {/* Home */}
-      <section id="home" data-scroll-index={0} className="section home-section-02">
-        <HomeTwo />
+      <section id="home" data-scroll-index={0} className="section home-section">
+        <HomeOne />
       </section>
       {/* End Home */}
       {/* About */}
@@ -44,6 +42,6 @@ export default function Home() {
         <ContactOne />
       </section>
       {/* End contactus */}
-    </Layout2>
+    </Layout1>
   )
 }

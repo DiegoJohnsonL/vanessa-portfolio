@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from './../plugin/contact-form';
+import ContactForm from '../plugin/contact-form';
 
 export default function ContactOne() {
   return (

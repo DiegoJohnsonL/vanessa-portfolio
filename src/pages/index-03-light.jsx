@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from "react";
 import Image from 'next/image'
-import Layout3 from '../src/layout/Layout3'
-import HomeThree from "../src/components/homeThree";
-import AboutOne from '../src/components/aboutOne';
-import ServiceOne from '../src/components/serviceOne';
-import PortfolioOne from '../src/components/portfolioOne';
-import TestimonialOne from '../src/components/testimonialOne';
-import ContactOne from "../src/components/contactOne";
+import Layout3 from "../layout/Layout3";
+import HomeThree from "../components/homeThree";
+import AboutOne from "../components/aboutOne";
+import ServiceOne from "../components/serviceOne";
+import PortfolioOne from "../components/portfolioOne";
+import TestimonialOne from "../components/testimonialOne";
+import ContactOne from "../components/contactOne";
 
 export default function Home() {
+  useEffect(() => {
+    document.querySelector("html").setAttribute("data-bs-theme", "light");
+  }, []);
   return (
-    <Layout3 switcherBtn>
+    <Layout3>
       {/* Home */}
       <HomeThree />
       {/* End Home */}
